@@ -1,4 +1,5 @@
-Reliable Data Transfer on an unreliable network
+Reliable Data Transfer on an Unreliable Network
+
 By Devruth Khanna
 
 =========
