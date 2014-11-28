@@ -6,7 +6,7 @@ By Devruth Khanna
 
 
 
-* Uses the Selective Repeat protocol to transfer a text file from one host to another across an unreliable network. 
+* Implements the Selective Repeat protocol to transfer a text file from one host to another across an unreliable network. 
 The protocol can handle network errors such as packet loss and duplicate packets. Moreover, it guarantees in-order delivery of packets. Packets are sent from the sender program which runs on Host1 to nEmulator using UDP sockets. The packets are then forwarded from the emulator to the receiver program on Host2. Note that nEmulator is to be running on a host different from both sender and receiver hosts. Given the input probability passed from user, nEmulator will drop packets with this given probability. To improve performance, I made the sender application multi-threaded.
 
 * Example Execution:
